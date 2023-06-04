@@ -86,3 +86,10 @@ driver.quit()
 
 with open('json_csv/7eleven.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
+
+# with open('json_csv/7eleven.json', 'r', encoding='utf-8') as f:
+#     data = json.load(f)
+#
+# # 데이터 개수 출력
+# num_data = len(data)
+# print("Number of data: ", num_data)
