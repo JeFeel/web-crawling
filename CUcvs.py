@@ -28,13 +28,6 @@ def readSourceAndParseTargetTag():
 
 def find_info(li):
     item = {}
-    # p_list = li.select('p')
-    # item_list = li.select('a')
-
-    # img_url = p_list[0].find('img')['src']
-    # title = p_list[1].text
-    # price = p_list[2].text
-    # sale = p_list[3].text
 
     item_img = li.find('img')['src']
     item_title = li.find('div', class_='name').text
@@ -70,8 +63,8 @@ for i in range(2): #  0, 1
     print("="*30+str(i+1)+"번째 시도"+"="*30)
     # print(readSourceAndParseTargetTag())
 
-    makeItem()
     # 이하 파싱 시작
+    makeItem()
 
 
 
