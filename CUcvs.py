@@ -70,10 +70,10 @@ for i in range(2): #  0, 1
 
 driver.quit()
 
-with open('json_csv/CU.json', 'w', encoding='utf-8') as f:
+with open('json_csv/CUcsv.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
 
-# with open('CU.json', 'r', encoding='utf-8') as f:
+# with open('CUcsv.json', 'r', encoding='utf-8') as f:
 #     data = json.load(f)
 #
 # # 데이터 개수 출력
