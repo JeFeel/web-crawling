@@ -38,6 +38,7 @@ def find_info(li):
     item['title'] = title
     item['price'] = price
     item['sale'] = sale
+    item['csv'] = "GS25"
     return item  # { } 형태로 반환
 
 
