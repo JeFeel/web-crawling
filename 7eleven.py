@@ -86,7 +86,7 @@ for i in range(2): #  0, 1
 
 driver.quit()
 
-with open('json_csv/7eleven.json', 'w', encoding='utf-8') as f:
+with open('C:/BackEnd/src/main/resources/static/json_csv/7eleven.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
 
 # with open('json_csv/7eleven.json', 'r', encoding='utf-8') as f:
