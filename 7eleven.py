@@ -37,7 +37,7 @@ def find_info(li):
     item['title'] = item_title
     item['price'] = item_price
     item['sale'] = item_sale
-    item['csv'] = "7-eleven"
+    item['cvs'] = "7-eleven"
 
 
 
